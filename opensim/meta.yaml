@@ -9,7 +9,7 @@ package:
 
 source:
     git_url: https://github.com/spMohanty/opensim-core.git
-    git_rev: f1609a172917756cb3e718823ce3eda0ab8607da
+    git_rev: 16e1c7bce62431f71eccda6aba2f6bdd57d7efbc
   
 build:
     number: 7
