@@ -8,8 +8,8 @@ package:
 #    sha256: dd425e886f394098533142652e246b375c8fb4d69246f0ffffcdd63bbbdb39c3
 
 source:
-    git_url: https://github.com/opensim-org/opensim-core.git
-    git_rev: b3163b22be7bd4cccd8c073e02dd3abb52867031 #6ba7e6c5ac30484f94c573767d7857b806dbef4a
+    git_url: https://github.com/spMohanty/opensim-core.git
+    git_rev: f3c5160116b04d2359cc2d179d29cba22dd52cdc
   
 build:
     number: 7
@@ -32,6 +32,8 @@ requirements:
         - toolchain
         - cmake >=2.8.6
         - python                  # [win]
+        - xorg-libxi
+        - xorg-libxmu
 
 about:
     home: http://opensim.stanford.edu
